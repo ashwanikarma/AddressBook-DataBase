@@ -32,3 +32,6 @@ update AddressBookDetails set phoneNumber=62686548424 where firstName='gungun'
 
 --UC5 ability to delete existing contact using their name--
 delete from AddressBookDetails where firstName='gungun'
+
+--UC6 -- ability to retrieve person using city or state from the table
+select * from AddressBookDetails where city = 'Chennai' or state = 'karnataka'
