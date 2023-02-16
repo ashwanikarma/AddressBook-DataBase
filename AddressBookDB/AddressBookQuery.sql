@@ -27,4 +27,7 @@ values('Ashwani', 'Karma', '54 backstreet', 'NY', 'America', 123654, 09131715292
 select * from AddressBookDetails
 
 
+----UC4 ability to edit existing contact using their name---
+update AddressBookDetails set phoneNumber=62686548424 where firstName='gungun'
+
 
