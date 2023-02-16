@@ -44,3 +44,8 @@ select count(state) from AddressBookDetails
 select * from AddressBookDetails 
 WHERE city = 'banglore'
 ORDER BY firstName
+
+------ UC 9: Identify each Address Book with name andType ------
+alter table AddressBookDetails 
+add Book_Name VARCHAR(20),
+Contact_Type VARCHAR(20)
